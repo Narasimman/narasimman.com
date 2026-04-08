@@ -1,0 +1,16 @@
+name: narasimman-com
+region: nyc
+
+static_sites:
+  - name: narasimman-portfolio
+      source_dir: /
+          output_dir: /
+              index_document: index.html
+                  error_document: index.html
+                      environment_slug: html
+                          routes:
+                                - path: /
+                                    github:
+                                          repo: Narasimman/narasimman.com
+                                                branch: main
+                                                      deploy_on_push: true
