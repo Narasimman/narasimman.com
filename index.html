@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narasimman — Software Engineer</title>
+  <meta name="description" content="Narasimman — Software Engineer specialising in scalable systems and modern web applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">N<span class="accent">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <span class="hero-greeting">Hi, I&rsquo;m</span>
+          <h1 class="hero-name">Narasimman</h1>
+          <h2 class="hero-title">Software Engineer</h2>
+          <p class="hero-sub">
+            I build reliable, scalable systems and thoughtful digital experiences.
+            Passionate about clean architecture, developer tooling, and the craft of engineering.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-graphic reveal reveal-delay">
+          <div class="code-block">
+            <div class="code-header">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="code-file">about.ts</span>
+            </div>
+            <pre><code><span class="kw">const</span> <span class="var">narasimman</span> = {
+  <span class="prop">role</span>: <span class="str">"Software Engineer"</span>,
+  <span class="prop">focus</span>: [
+    <span class="str">"Distributed Systems"</span>,
+    <span class="str">"Cloud Infrastructure"</span>,
+    <span class="str">"Web Applications"</span>,
+  ],
+  <span class="prop">values</span>: [
+    <span class="str">"Simplicity"</span>,
+    <span class="str">"Reliability"</span>,
+    <span class="str">"Craftsmanship"</span>,
+  ],
+  <span class="prop">open_to_work</span>: <span class="bool">true</span>,
+};</code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">01 &mdash; About</span>
+          <h2 class="section-title">A bit about me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I&rsquo;m a software engineer with a deep interest in building systems that scale —
+              from backend services to cloud infrastructure to the developer experience that ties
+              it all together.
+            </p>
+            <p>
+              Over the years I&rsquo;ve worked across the full stack, but I'm most at home
+              designing APIs, optimising data pipelines, and shipping products that actually
+              hold up under real-world load.
+            </p>
+            <p>
+              When I&rsquo;m not coding I enjoy reading, tinkering with home automation,
+              and the occasional long-form essay on engineering culture.
+            </p>
+          </div>
+          <div class="about-stats reveal reveal-delay">
+            <div class="stat-card">
+              <span class="stat-number">7<span class="accent">+</span></span>
+              <span class="stat-label">Years of experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">30<span class="accent">+</span></span>
+              <span class="stat-label">Projects shipped</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">10<span class="accent">+</span></span>
+              <span class="stat-label">Technologies mastered</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Problems solved</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">02 &mdash; Skills</span>
+          <h2 class="section-title">What I work with</h2>
+        </div>
+        <div class="skills-grid">
+
+          <div class="skill-category reveal">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"/></svg>
+            </div>
+            <h3>Languages</h3>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>TypeScript</li>
+              <li>Go</li>
+              <li>Java</li>
+              <li>Bash</li>
+            </ul>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3"/></svg>
+            </div>
+            <h3>Frameworks</h3>
+            <ul class="tag-list">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>FastAPI</li>
+              <li>Django</li>
+              <li>Next.js</li>
+            </ul>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 5.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+            </div>
+            <h3>Databases</h3>
+            <ul class="tag-list">
+              <li>PostgreSQL</li>
+              <li>Redis</li>
+              <li>MongoDB</li>
+              <li>Elasticsearch</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-category reveal">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z"/></svg>
+            </div>
+            <h3>Cloud &amp; DevOps</h3>
+            <ul class="tag-list">
+              <li>AWS</li>
+              <li>DigitalOcean</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>Terraform</li>
+              <li>GitHub Actions</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">03 &mdash; Experience</span>
+          <h2 class="section-title">Where I&rsquo;ve worked</h2>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">2022 &mdash; Present</span>
+                <span class="timeline-company">Company Name</span>
+              </div>
+              <h3 class="timeline-role">Senior Software Engineer</h3>
+              <p>Led design and implementation of core platform services serving millions of requests per day. Drove adoption of event-driven architecture and reduced system latency by 40%.</p>
+              <ul class="tag-list">
+                <li>Go</li><li>Kafka</li><li>Kubernetes</li><li>PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">2019 &mdash; 2022</span>
+                <span class="timeline-company">Company Name</span>
+              </div>
+              <h3 class="timeline-role">Software Engineer</h3>
+              <p>Built and maintained full-stack features for a SaaS product. Owned the data pipeline that processed and enriched user analytics in near real-time.</p>
+              <ul class="tag-list">
+                <li>Python</li><li>React</li><li>AWS</li><li>Redis</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">2017 &mdash; 2019</span>
+                <span class="timeline-company">Company Name</span>
+              </div>
+              <h3 class="timeline-role">Junior Software Engineer</h3>
+              <p>Started career building internal tooling and REST APIs. Contributed to migrating a legacy monolith to a service-oriented architecture.</p>
+              <ul class="tag-list">
+                <li>Java</li><li>Spring Boot</li><li>MySQL</li><li>Docker</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">04 &mdash; Projects</span>
+          <h2 class="section-title">Things I&rsquo;ve built</h2>
+        </div>
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <div class="project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"/></svg>
+              </div>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub" class="icon-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+                <a href="#" aria-label="Live demo" class="icon-link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Project Alpha</h3>
+            <p>A high-performance job queue built on top of Redis with support for priorities, retries, and distributed workers. Handles 100k+ jobs per second.</p>
+            <ul class="tag-list">
+              <li>Go</li><li>Redis</li><li>gRPC</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <div class="project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 5.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+            </div>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub" class="icon-link">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              </a>
+              <a href="#" aria-label="Live demo" class="icon-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+              </a>
+            </div>
+          </div>
+            <h3>Project Beta</h3>
+            <p>An open-source CLI tool that generates database migration scripts by diffing schema definitions. Supports PostgreSQL, MySQL, and SQLite.</p>
+            <ul class="tag-list">
+              <li>Python</li><li>PostgreSQL</li><li>CLI</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-header">
+              <div class="project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0H3"/></svg>
+              </div>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub" class="icon-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+                <a href="#" aria-label="Live demo" class="icon-link">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Project Gamma</h3>
+            <p>A lightweight dashboard for visualising infrastructure metrics. Pulls data from Prometheus, renders interactive time-series charts with no external JS dependencies.</p>
+            <ul class="tag-list">
+              <li>TypeScript</li><li>Prometheus</li><li>Canvas API</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">05 &mdash; Contact</span>
+          <h2 class="section-title">Let&rsquo;s talk</h2>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-text reveal">
+            <p>
+              Whether you have a project in mind, want to discuss a role,
+              or just want to say hello — my inbox is always open.
+            </p>
+            <a href="mailto:hello@narasimman.com" class="btn btn-primary contact-btn">
+              Say hello
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/></svg>
+            </a>
+          </div>
+          <div class="contact-links reveal reveal-delay">
+            <a href="https://github.com/narasimman" class="social-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/narasimman" class="social-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://twitter.com/narasimman" class="social-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              Twitter / X
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-copy">&copy; <span id="year"></span> Narasimman. Built with HTML, CSS &amp; JS.</span>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 15.75l7.5-7.5 7.5 7.5"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
